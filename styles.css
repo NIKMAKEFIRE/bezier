@@ -1,0 +1,38 @@
+#wrapper {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: orange;
+}
+
+.resize {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    z-index: 2;
+}
+
+.resize.nw {
+    top: -1px;
+    left: -1px;
+    cursor: nw-resize;
+}
+
+.resize.ne {
+    top: -1px;
+    right: -1px;
+    cursor: ne-resize;
+}
+
+.resize.sw {
+    bottom: -1px;
+    left: -1px;
+    cursor: sw-resize;
+}
+
+.resize.se {
+    bottom: -1px;
+    right: -1px;
+    cursor: se-resize;
+}
